@@ -7,7 +7,7 @@ class Fichier{
   QString nom;
   QString chemin;
   QString format;
-  int taille = 0;
+  int taille;
   QDate date(1,1,1);
 
 public :
