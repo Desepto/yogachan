@@ -20,7 +20,8 @@ SOURCES += main.cpp\
 
 HEADERS  += mainwindow.h \
     dialog.h \
-    connexion.h
+    connexion.h \
+    Fichier.h
 
 FORMS    += mainwindow.ui \
     dialog.ui
