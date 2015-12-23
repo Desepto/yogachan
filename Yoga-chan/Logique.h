@@ -6,7 +6,9 @@ class Logique{
   public:
   
   QList<QList<Fichier>> ListeFichiers;
-  Qlist<String> ListeNoms;
+  Qlist<QString> ListeNoms;
   Connexion C;
+  
+  Logique(QList<QList<Fichier>> lf, QList<QString>, Connexion co);
   
 }
