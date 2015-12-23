@@ -21,6 +21,7 @@ Dialog::Dialog(QWidget *parent) :
         if(maBDD.open()){}
     else
         QMessageBox::warning(this, "Warning", "Erreur lors du chargement de la base de donnée");
+
 }
 
 Dialog::~Dialog()
