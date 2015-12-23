@@ -1,5 +1,13 @@
 #include "Fichier.h"
 
+Fichier::Fichier(){
+  this->nom = "";
+  this->format = "";
+  this->format = "";
+  this->taille = 0;
+  this->date(1,1,1);
+}
+
 Fichier::Fichier(QString n, QString f, int t, QDate d){
     this->nom = n;
     this->format = f;

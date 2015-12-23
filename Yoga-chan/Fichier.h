@@ -3,14 +3,16 @@
 class Fichier{
 
   // CODE NON TESTE
-
+public :
   QString nom;
   QString chemin;
   QString format;
   int taille;
-  QDate date(1,1,1);
+  QDate date;
 
-public :
+
+  Fichier();
+  
   Fichier(QString n, QString f, int t, QDate d);
   
   Fichier(QString n, QString c, QString f, int t, QDate d);
