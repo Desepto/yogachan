@@ -1,14 +1,5 @@
-using namespace std;
+#include Fichier.h
 
-class Fichier{
-
-public :
-  QString nom();
-  QString chemin();
-  QString format();
-  int taille = 0;
-  QDate date(1,1,1);
-  
   Fichier(String n, String f, int t, QDate d){
     this->nom = n;
     this->format = f;
@@ -29,6 +20,3 @@ public :
       return false;
     return true;
   }
-  
-
-}
